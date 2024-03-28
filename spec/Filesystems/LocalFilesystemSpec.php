@@ -25,7 +25,7 @@ class LocalFilesystemSpec extends ObjectBehavior
 
     public function it_should_provide_an_instance_of_a_local_filesystem()
     {
-        $this->get($this->getConfig())->getAdapter()->shouldHaveType('League\Flysystem\Adapter\Local');
+        $this->get($this->getConfig())->getAdapter()->shouldHaveType('League\Flysystem\Local\LocalFilesystemAdapter');
     }
 
     public function getConfig()
