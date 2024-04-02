@@ -1,6 +1,6 @@
 {
-  "name": "backup-manager-upgrade/backup-manager-upgrade",
-  "description": "1111 A framework agnostic database backup manager with user-definable procedures and support for S3, Dropbox, FTP, SFTP, and more with drivers for popular frameworks.",
+  "name": "backup-manager/backup-manager",
+  "description": "A framework agnostic database backup manager with user-definable procedures and support for S3, Dropbox, FTP, SFTP, and more with drivers for popular frameworks.",
   "license": "MIT",
   "authors": [
     {
